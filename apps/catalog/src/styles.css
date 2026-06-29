@@ -1,0 +1,29 @@
+@import 'tailwindcss';
+
+/* Scan the shared UI package so its Tailwind utilities are generated here too
+   (v4 ignores node_modules by default). */
+@source '../../../packages/ui/src';
+
+/* Own copy of the theme tokens so the catalog themes correctly when run
+   standalone on :3001, independent of the shell. */
+:root {
+  --bg: #0f0f14;
+  --surface: #1a1a22;
+  --border: #2a2a35;
+  --accent: #8b5cf6;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --text: #f4f4f5;
+  --text-muted: #a1a1aa;
+}
+
+html,
+body {
+  margin: 0;
+  min-height: 100%;
+  background: var(--bg);
+  color: var(--text);
+  font-family:
+    ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+}

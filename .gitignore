@@ -1,0 +1,39 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+
+# Turborepo
+.turbo/
+
+# Rsbuild / Module Federation generated types
+**/@mf-types/
+*.tsbuildinfo
+
+# Vercel
+.vercel/
+
+# Environment files (never commit secrets)
+.env
+.env.*
+!.env.example
+
+# Local MCP config — contains the Stitch API key in plaintext
+.mcp.json
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+pnpm-debug.log*
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.swp
+.idea/

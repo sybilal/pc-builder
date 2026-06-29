@@ -1,0 +1,16 @@
+/*
+ * Shared theme tokens for the Game-to-PC Builder.
+ * Imported by every app so each one themes correctly standalone or federated.
+ * Theming is CSS-variable only — there is no React ThemeProvider.
+ */
+:root {
+  --bg: #0f0f14;
+  --surface: #1a1a22;
+  --border: #2a2a35;
+  --accent: #8b5cf6;
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --danger: #ef4444;
+  --text: #f4f4f5;
+  --text-muted: #a1a1aa;
+}

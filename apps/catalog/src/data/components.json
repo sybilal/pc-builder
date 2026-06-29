@@ -1,0 +1,102 @@
+[
+  {
+    "id": "cpu-ryzen-5-7600",
+    "category": "cpu",
+    "brand": "AMD",
+    "name": "Ryzen 5 7600",
+    "priceEur": 199,
+    "perfScore": 68,
+    "specs": { "cores": 6, "threads": 12, "boostGhz": 5.1, "socket": "AM5" },
+    "releaseYear": 2023
+  },
+  {
+    "id": "cpu-ryzen-7-7800x3d",
+    "category": "cpu",
+    "brand": "AMD",
+    "name": "Ryzen 7 7800X3D",
+    "priceEur": 359,
+    "perfScore": 92,
+    "specs": { "cores": 8, "threads": 16, "boostGhz": 5.0, "socket": "AM5" },
+    "releaseYear": 2023
+  },
+  {
+    "id": "gpu-rtx-4060",
+    "category": "gpu",
+    "brand": "NVIDIA",
+    "name": "GeForce RTX 4060",
+    "priceEur": 299,
+    "perfScore": 60,
+    "specs": { "vramGb": 8, "tdpW": 115, "boostGhz": 2.46 },
+    "releaseYear": 2023
+  },
+  {
+    "id": "gpu-rtx-4070-super",
+    "category": "gpu",
+    "brand": "NVIDIA",
+    "name": "GeForce RTX 4070 Super",
+    "priceEur": 619,
+    "perfScore": 85,
+    "specs": { "vramGb": 12, "tdpW": 220, "boostGhz": 2.48 },
+    "releaseYear": 2024
+  },
+  {
+    "id": "ram-corsair-32-ddr5",
+    "category": "ram",
+    "brand": "Corsair",
+    "name": "Vengeance 32GB DDR5-6000",
+    "priceEur": 109,
+    "perfScore": 80,
+    "specs": { "capacityGb": 32, "speedMtps": 6000, "kit": "2x16GB" },
+    "releaseYear": 2023
+  },
+  {
+    "id": "storage-sn850x-1tb",
+    "category": "storage",
+    "brand": "WD",
+    "name": "Black SN850X 1TB NVMe",
+    "priceEur": 89,
+    "perfScore": 88,
+    "specs": { "capacityGb": 1000, "interface": "PCIe 4.0", "readMbps": 7300 },
+    "releaseYear": 2022
+  },
+  {
+    "id": "mobo-b650-tomahawk",
+    "category": "motherboard",
+    "brand": "MSI",
+    "name": "MAG B650 Tomahawk WiFi",
+    "priceEur": 219,
+    "perfScore": 75,
+    "specs": { "socket": "AM5", "chipset": "B650", "formFactor": "ATX" },
+    "releaseYear": 2022
+  },
+  {
+    "id": "psu-rm750e",
+    "category": "psu",
+    "brand": "Corsair",
+    "name": "RM750e 750W",
+    "priceEur": 99,
+    "perfScore": 82,
+    "specs": { "watts": 750, "rating": "80+ Gold", "modular": "Full" },
+    "releaseYear": 2023
+  },
+  {
+    "id": "case-4000d-airflow",
+    "category": "case",
+    "brand": "Corsair",
+    "name": "4000D Airflow",
+    "priceEur": 89,
+    "perfScore": 78,
+    "specs": { "formFactor": "Mid Tower", "fansIncluded": 2, "color": "Black" },
+    "releaseYear": 2020
+  },
+  {
+    "id": "cooler-peerless-assassin",
+    "category": "cooler",
+    "brand": "Thermalright",
+    "name": "Peerless Assassin 120 SE",
+    "priceEur": 39,
+    "perfScore": 84,
+    "specs": { "type": "Air", "heatpipes": 6, "tdpW": 245 },
+    "releaseYear": 2022
+  }
+]

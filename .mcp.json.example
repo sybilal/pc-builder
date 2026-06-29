@@ -1,0 +1,12 @@
+{
+  "_comment": "Copy this to .mcp.json (gitignored) and provide the key. Either paste the literal value into the header, or set STITCH_API_KEY in your environment and keep the ${...} form below — Claude Code expands ${VAR} at load time.",
+  "mcpServers": {
+    "stitch": {
+      "type": "http",
+      "url": "https://stitch.googleapis.com/mcp",
+      "headers": {
+        "X-Goog-Api-Key": "${STITCH_API_KEY}"
+      }
+    }
+  }
+}

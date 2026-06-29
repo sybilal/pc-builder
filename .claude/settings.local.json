@@ -1,0 +1,17 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(mkdir -p apps packages)",
+      "Bash(git mv *)",
+      "Bash(mv shell *)",
+      "Bash(mv catalog *)",
+      "Bash(mv apps/shell/src/types/Workspace.tsx apps/shell/src/Workspace.tsx)",
+      "Bash(pnpm install *)",
+      "Bash(pnpm type-check *)",
+      "Bash(pnpm build *)",
+      "Bash(node -e \"const m=require\\('./apps/catalog/dist/mf-manifest.json'\\); console.log\\('name:',m.id||m.name\\); console.log\\('exposes:', \\(m.exposes||[]\\).map\\(e=>e.path||e.name\\)\\);\")",
+      "Bash(node -e \"const m=require\\('./apps/shell/dist/mf-manifest.json'\\); console.log\\('name:',m.id||m.name\\); console.log\\('remotes:', \\(m.remotes||[]\\).map\\(r=>r.federationContainerName||r.moduleName||r.alias\\)\\);\")",
+      "Bash(pnpm dev *)"
+    ]
+  }
+}
